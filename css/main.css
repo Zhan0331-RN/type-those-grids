@@ -24,8 +24,8 @@ body {
 
 header h1 {
   font-style: italic;
-  font-size: .8rem;
   font-weight: lighter;
+  padding-top: 1em;
 }
 .image{
   position: relative;
