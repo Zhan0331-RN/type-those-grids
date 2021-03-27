@@ -23,6 +23,7 @@ body {
 }
 
 header h1 {
+  font-size: .8rem;
   font-style: italic;
   font-weight: lighter;
   padding-top: 1em;
@@ -59,6 +60,23 @@ p {
 .main-image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav p {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+main {
+  font-size: .5rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+main dl dd {
+  font-style: normal;
+  padding: 0;
 }
 .mainbody {
   display: grid;
