@@ -3,8 +3,8 @@ html {
   font-family: "Merriweather", serif;
   font-size: 1.5rem;
   line-height: 1.5;
-  margin: 1rem, 1.5rem;
-  padding: 1rem. 1.5rem;
+  margin: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
   gap: .75rem;
 }
 
@@ -18,7 +18,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-areas:
+  grid-area:
   "main";
 }
 
@@ -56,23 +56,17 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.main-grid {
-  list-style: none;
-  padding: 0;
-
+.main-image {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(15rem,100%),2fr));
-  gap:
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mainbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr 3fr;
 }
 
-.main-grid dl{
-  padding: 1em;
-}
-
-@media screen and (min-width: 90em){
-  body {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "main";
-  }
+.colossus {
+  grid-column: 2;
+  grid-row: 1;
 }
