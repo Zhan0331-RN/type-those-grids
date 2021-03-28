@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 1.5rem;
   line-height: 1.5;
   margin: 1rem 1.5rem;
@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-style: italic;
 }
 
@@ -42,6 +42,7 @@ h1 {
 
 h2 {
   font-style: italic;
+  font-weight: lighter;
   margin: 0;
   color: #fff;
   font-size: 1.2rem;
@@ -54,7 +55,7 @@ h2 {
 }
 
 body p {
-  font-size: .8rem;
+  font-size: .6rem;
   font-weight: lighter;
   font-style: normal;
   margin-top: 2rem;
@@ -69,8 +70,8 @@ body p {
 .main-image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: .5em;
-  padding-top: .5em;
+  gap: .75em;
+  padding-top: .75em;
   padding-bottom: 0;
 
 }
