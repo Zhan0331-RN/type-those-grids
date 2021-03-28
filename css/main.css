@@ -22,8 +22,8 @@ body {
   "main";
 }
 
-h1 {
-  font-size: 1.2rem;
+header h1 {
+  font-size: 1.1rem;
   font-style: italic;
 }
 
@@ -40,7 +40,7 @@ h1 {
 
 }
 
-h2 {
+header h2 {
   font-style: italic;
   font-weight: lighter;
   margin: 0;
@@ -71,12 +71,9 @@ body p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: .75em;
-  padding-top: .75em;
-  padding-bottom: 0;
-
 }
 
-nav p {
+nav figcaption {
   grid-area: nav;
   font-size: 1rem;
   font-weight: lighter;
