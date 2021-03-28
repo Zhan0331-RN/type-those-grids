@@ -30,14 +30,14 @@ h1 {
 
 .banner {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 1fr 4rem;
 }
 
 .banner img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  width: 50%
+  width: 100%;
 
 }
 
@@ -71,8 +71,8 @@ body p {
 .main-image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: .5em;
-  z-index: 2;
+  gap: 1em;
+  z-index: 2
 }
 
 nav p {
