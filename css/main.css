@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: .8rem;
   font-style: italic;
   font-weight: lighter;
 }
@@ -37,7 +37,8 @@ h1 {
 .banner img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  width: 95%;
+  width: 50%
+
 }
 
 h2 {
@@ -70,14 +71,15 @@ body p {
 .main-image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: .1em;
-  width: 100%;
+  gap: .5em;
+  z-index: 2;
 }
 
 nav p {
   font-size: 1rem;
   font-weight: lighter;
   font-style: italic;
+  z-index: 1;
 }
 
 main {
@@ -93,5 +95,5 @@ main dl dd {
 .mainbody {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 3fr 3fr;
+  grid-template-rows: 1fr 1fr;
 }
