@@ -17,49 +17,61 @@ body {
   margin: 0;
 
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-areas:
   "nav"
   "main";
 }
 
-header h1 {
+h1 {
   font-size: 1rem;
   font-style: italic;
   font-weight: lighter;
 }
-.image{
-  position: relative;
-  padding: 0;
+
+.banner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 4rem;
 }
 
-.h1text {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  color: #fff;
+.banner img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 95%;
 }
 
-.h1text,
 h2 {
   font-style: italic;
   font-weight: lighter;
+  margin: 0;
+  color: #fff;
   font-size: .8rem;
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
   text-align: left;
-  line-height: .5;
+  margin-top: 1.2rem;
+  margin-left: .5rem;
 }
 
-.h1text,
-p {
+body p {
   font-size: .5rem;
   font-weight: lighter;
   font-style: normal;
-  margin-bottom: 0.5rem;
+  margin-top: 2.4rem;
+  margin-bottom: .5rem;
+  grid-column: 1;
+  grid-row: 2;
+  color: #fff;
+  z-index: 2;
+  margin-left: .5rem;
 }
 
 .main-image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: .1em;
+  width: 100%;
 }
 
 nav p {
