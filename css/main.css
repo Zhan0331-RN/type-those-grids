@@ -1,101 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  margin: 1rem 1.5rem;
-  padding: 0;
-  gap: .75rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-
-  display: grid;
-  grid-template-areas:
-  "nav"
-  "main";
-}
-
-header h1 {
-  font-size: 1.1rem;
-  font-style: italic;
-}
-
-.banner {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 4rem;
-}
-
-.banner img {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
+img {
   width: 100%;
-
-}
-
-header h2 {
-  font-style: italic;
-  font-weight: lighter;
-  margin: 0;
-  color: #fff;
-  font-size: 1.2rem;
-  grid-column: 1/3;
-  grid-row: 2;
-  z-index: 1;
-  text-align: left;
-  margin-top: .2rem;
-  margin-left: .5rem;
-}
-
-body p {
-  font-size: .6rem;
-  font-weight: lighter;
-  font-style: normal;
-  margin-top: 2rem;
-  margin-bottom: .5rem;
-  grid-column: 1/3;
-  grid-row: 2;
-  color: #fff;
-  z-index: 2;
-  margin-left: .5rem;
-}
-
-.main-image {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: .75em;
-}
-
-nav figcaption {
-  grid-area: nav;
-  font-size: 1rem;
-  font-weight: lighter;
-  font-style: italic;
-  z-index: 1;
-  color: black;
-  margin-top: 0;
-  align-self: auto;
-}
-
-main {
-  font-size: .5rem;
-  font-weight: lighter;
-  font-style: italic;
-}
-
-main dl dd {
-  font-style: normal;
-  padding: 0;
-}
-.mainbody {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
