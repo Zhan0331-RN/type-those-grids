@@ -19,7 +19,7 @@ main {
   gap: .75rem;
 }
 
-.img-banner {.
+.img-banner {
   grid-area: banner;
 }
 
